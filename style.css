@@ -203,6 +203,38 @@ footer{
     text-align: center;
     padding:30px
 }
+@media (max-width: 1024px) {
+    .item1 {
+        width: 48%;
+    }
+
+    .section h2 {
+        font-size: 2.2rem;
+    }
+
+    .section p {
+        font-size: 1.1rem;
+    }
+
+    #contact input {
+        width: 85vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .item1 {
+        width: 22%;
+    }
+
+    .section h2 {
+        font-size: 3rem;
+    }
+
+    .section p {
+        font-size: 1.3rem;
+    }
+}
+
 
 
 
